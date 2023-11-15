@@ -2,7 +2,7 @@ from urlextract import URLExtract
 from wordcloud import WordCloud
 import pandas as pd
 from collections import Counter
-# import os
+import os
 import emoji
 
 
@@ -84,11 +84,11 @@ def create_wordcloud(selected_user,df):
 
 def most_common_words(selected_user,df):
     #f = open('stop_hinglish.txt','r')
-    f = open('C:\\Users\\abc\\Desktop\\application\\WhatsApp-Chat-Analysis\\stop_hinglish.txt', 'r')
+    # f = open('C:\\Users\\abc\\Desktop\\application\\WhatsApp-Chat-Analysis\\stop_hinglish.txt', 'r')
 
     #import os
-    # file_path = os.path.join(os.getcwd(), 'stop_hinglish.txt')
-    # f = open(file_path, 'r')
+    file_path = os.path.join(os.getcwd(), 'stop_hinglish.txt')
+    f = open(file_path, 'r')
 
     stop_words = f.read()
 
