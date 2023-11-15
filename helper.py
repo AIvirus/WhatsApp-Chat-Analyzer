@@ -55,11 +55,11 @@ def most_busy_users(df):
 
 def create_wordcloud(selected_user,df):
     
-    f = open('C:\\Users\\abc\\Desktop\\application\\WhatsApp-Chat-Analysis\\stop_hinglish.txt', 'r')
+    # f = open('C:\\Users\\abc\\Desktop\\application\\WhatsApp-Chat-Analysis\\stop_hinglish.txt', 'r')
 
     #import os
-    # file_path = os.path.join(os.getcwd(), 'stop_hinglish.txt')
-    # f = open(file_path, 'r')
+    file_path = os.path.join(os.getcwd(), 'stop_hinglish.txt')
+    f = open(file_path, 'r')
 
     stop_words = f.read()
 
