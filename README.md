@@ -29,8 +29,8 @@ WhatsAppChatAnalyzer/
 
 ### 📥 Clone this repository
 ```sh
-git clone https://github.com/your-repo/whatsapp-chat-analyzer.git
-cd whatsapp-chat-analyzer
+https://github.com/AIvirus/WhatsApp-Chat-Analyzer.git
+cd WhatsApp-Chat-Analyzer
 ```
 
 ### 📦 Install dependencies
